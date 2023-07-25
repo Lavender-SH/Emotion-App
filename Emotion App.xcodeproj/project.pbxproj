@@ -13,6 +13,7 @@
 		027DE86E2A6FADDB001C731D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027DE86C2A6FADDB001C731D /* Main.storyboard */; };
 		027DE8702A6FADDC001C731D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027DE86F2A6FADDC001C731D /* Assets.xcassets */; };
 		027DE8732A6FADDC001C731D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027DE8712A6FADDC001C731D /* LaunchScreen.storyboard */; };
+		027DE87B2A6FE119001C731D /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE87A2A6FE119001C731D /* scoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		027DE86F2A6FADDC001C731D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		027DE8722A6FADDC001C731D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		027DE8742A6FADDC001C731D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027DE87A2A6FE119001C731D /* scoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				027DE8662A6FADDB001C731D /* AppDelegate.swift */,
 				027DE8682A6FADDB001C731D /* SceneDelegate.swift */,
 				027DE86A2A6FADDB001C731D /* ViewController.swift */,
+				027DE87A2A6FE119001C731D /* scoreViewController.swift */,
 				027DE86C2A6FADDB001C731D /* Main.storyboard */,
 				027DE86F2A6FADDC001C731D /* Assets.xcassets */,
 				027DE8712A6FADDC001C731D /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				027DE86B2A6FADDB001C731D /* ViewController.swift in Sources */,
 				027DE8672A6FADDB001C731D /* AppDelegate.swift in Sources */,
 				027DE8692A6FADDB001C731D /* SceneDelegate.swift in Sources */,
+				027DE87B2A6FE119001C731D /* scoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBXHWJCYZK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Emotion App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -301,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sesac.Emotion-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,6 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBXHWJCYZK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Emotion App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sesac.Emotion-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
